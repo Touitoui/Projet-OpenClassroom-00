@@ -25,15 +25,21 @@ function changeLanguage() {
     const selectedLanguage = languageSelector.value;
 
     // Language-specific content changes
-    //Need to add coffee descriptions, and page header
+    // Need to add coffee descriptions, and page header
     if (selectedLanguage === 'fr') {
-        document.getElementById('about').innerHTML = "<h2>À propos de nous</h2><p>Bienvenue chez Coffee Haven, où nous nous consacrons à offrir un espace chaleureux et accueillant aux amateurs de café. Nos boissons soigneusement préparées et notre ambiance confortable font de nous l'endroit idéal pour une expérience café délicieuse.</p>";
-        document.getElementById('contact').innerHTML = "<h2>Contactez-nous</h2><p>Visitez-nous à :</p><p>123, rue Principale, Ville</p><p>Email : info@coffeehaven.com</p><p>Téléphone : (555) 123-4567</p>";
-        document.querySelector('footer span').innerText = "© 2024 Coffee Haven. Tous droits réservés.";
+        document.getElementById('coffee1-description').innerHTML = "<h2>Expresso</h2><p>Un café fort et concentré préparé en forçant de l'eau chaude à travers des grains de café finement moulus.</p>";
+        document.getElementById('coffee1-title').innerHTML = "Expresso";
+        document.getElementById('coffee2-description').innerHTML = "<h2>Cappuccino</h2><p>Un café composée d'espresso, de lait chauffé à la vapeur et d'une couche de mousse de lait.</p>";
+        document.getElementById('about').innerHTML = "<p>Bienvenue chez Coffee Haven, où nous nous consacrons à offrir un espace chaleureux et accueillant aux amateurs de café. Nos boissons soigneusement préparées et notre ambiance confortable font de nous l'endroit idéal pour une expérience café délicieuse.</p>";
+        document.getElementById('contact').innerHTML = "<h2>Contactez-nous</h2><p>Rendez-nous visite à :</p><p>123, rue Principale, Castelnau-le-Lez</p><p>Email : Email: mickael.gresse@gmail.com</p><p>Téléphone : 06-41-54-05-99</p>";
+        document.querySelector('footer span').innerText = "© 2024 Coffee Haven. Aucuns droits réservés.";
     } else {
-        // Reset to English content or add more languages as needed
-        document.getElementById('about').innerHTML = "<h2>About Us</h2><p>Welcome to Coffee Haven, where we are dedicated to providing a warm and inviting space for coffee enthusiasts. Our carefully crafted beverages and cozy ambiance make us your go-to spot for a delightful coffee experience.</p>";
-        document.getElementById('contact').innerHTML = "<h2>Contact Us</h2><p>Visit us at:</p><p>123 Main Street, Cityville</p><p>Email: info@coffeehaven.com</p><p>Phone: (555) 123-4567</p>";
-        document.querySelector('footer span').innerText = "© 2024 Coffee Haven. All rights reserved.";
+        // Reset to English
+        document.getElementById('coffee1-description').innerHTML = "<h2>Expresso</h2><p>A strong and concentrated coffee brewed by forcing hot water through finely-ground coffee beans.</p>";
+        document.getElementById('coffee1-title').innerHTML = "Espresso";
+        document.getElementById('coffee2-description').innerHTML = "<h2>Cappuccino</h2><p>A coffee drink that is composed of espresso, steamed milk, and a layer of frothed milk.</p>";
+        document.getElementById('about').innerHTML = "<p>Welcome to Coffee Haven, where we are dedicated to providing a warm and inviting space for coffee enthusiasts. Our carefully crafted beverages and cozy ambiance make us your go-to spot for a delightful coffee experience.</p>";
+        document.getElementById('contact').innerHTML = "<h2>Contact Us</h2><p>Visit us at:</p><p>123 Main Street, Castelnau-le-Lez</p><p>Email: Email: mickael.gresse@gmail.com</p><p>Phone:+336-41-54-05-99</p>";
+        document.querySelector('footer span').innerText = "© 2024 Coffee Haven. No rights reserved.";
     }
 }

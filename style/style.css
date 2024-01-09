@@ -2,8 +2,8 @@ body {
     font-family: "OpenDyslexic";
     margin: 0;
     padding: 0;
-    background-color: #f8ede5; /* Warmer background color */
-    color: #403d3a; /* Dark text color */
+    background-color: #f8ede5;
+    color: #403d3a;
 }
 
 header {
@@ -89,8 +89,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
 
 .icone-link img {
     height:50px;

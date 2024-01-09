@@ -29,6 +29,39 @@ h2 {
     color: #403d3a;
 }
 
+.fold-unfold {
+    display: none;
+}
+
+.fold-unfold-label {
+    cursor: pointer;
+    background-color: #755139;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.fold-unfold:checked + .fold-unfold-label {
+    background-color: #503028;
+}
+
+.fold-unfold-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d2b48c;
+    border-radius: 8px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fold-unfold:checked + .fold-unfold-label + .fold-unfold-content {
+    display: block;
+}
+
 #menu {
     display: flex;
     flex-wrap: wrap;

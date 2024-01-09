@@ -98,6 +98,15 @@ footer {
     left: 0px;
 }
 
+header h1{
+    background-color: #b98563;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border: 3px solid #7c5439;
+
+}
+
 @font-face {
     font-family: "OpenDyslexic";
     src: url('fonts/OpenDyslexic/OpenDyslexic-Regular.woff');

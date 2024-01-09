@@ -33,7 +33,7 @@ function changeLanguage() {
         document.getElementById('coffee3-title').innerHTML = "Café Magique";
         document.getElementById('coffee3-description').innerHTML = "<h2>Café Magique</h2><p>Un café créé dans un autre univers qui reste chaud grâce au pouvoir de l'amitiée.</p>";
         document.getElementById('about').innerHTML = "<p>Bienvenue chez Coffee Haven, où nous nous consacrons à offrir un espace chaleureux et accueillant aux amateurs de café. Nos boissons soigneusement préparées et notre ambiance confortable font de nous l'endroit idéal pour une expérience café délicieuse.</p>";
-        document.getElementById('contact').innerHTML = "<h2>Contactez-nous</h2><p>Rendez-nous visite à :</p><p>123, rue Principale, Castelnau-le-Lez</p><p>Email : Email: mickael.gresse@gmail.com</p><p>Téléphone : 06-41-54-05-99</p>";
+        document.getElementById('contact').innerHTML = "<h2>Contactez-nous</h2><p>Rendez-nous visite à :</p><p>123, rue Principale, Castelnau-le-Lez</p><p>Email: mickael.gresse@gmail.com</p><p>Téléphone : 06-41-54-05-99</p>";
         document.querySelector('footer span').innerText = "© 2024 Coffee Haven. Aucuns droits réservés.";
     } else {
         // Reset to English
@@ -43,7 +43,7 @@ function changeLanguage() {
         document.getElementById('coffee3-title').innerHTML = "Magic Coffee";
         document.getElementById('coffee3-description').innerHTML = "<h2>Magic Coffee</h2><p>A coffee made in another universe that always stay warm thanks to the power of friendship.</p>";
         document.getElementById('about').innerHTML = "<p>Welcome to Coffee Haven, where we are dedicated to providing a warm and inviting space for coffee enthusiasts. Our carefully crafted beverages and cozy ambiance make us your go-to spot for a delightful coffee experience.</p>";
-        document.getElementById('contact').innerHTML = "<h2>Contact Us</h2><p>Visit us at:</p><p>123 Main Street, Castelnau-le-Lez</p><p>Email: Email: mickael.gresse@gmail.com</p><p>Phone:+336-41-54-05-99</p>";
+        document.getElementById('contact').innerHTML = "<h2>Contact Us</h2><p>Visit us at:</p><p>123 Main Street, Castelnau-le-Lez</p><p>Email: mickael.gresse@gmail.com</p><p>Phone:+336-41-54-05-99</p>";
         document.querySelector('footer span').innerText = "© 2024 Coffee Haven. No rights reserved.";
     }
 }

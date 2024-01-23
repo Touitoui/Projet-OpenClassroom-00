@@ -2,7 +2,6 @@ function toggleDescription(descriptionId) {
     const description = document.getElementById(descriptionId);
 
     // Close all other coffee descriptions 
-    // To_fix 
     const allDescriptions = document.querySelectorAll('.coffee-description');
     allDescriptions.forEach((item) => {
         if (item.id !== descriptionId && item.style.display !== 'none') {
@@ -25,7 +24,6 @@ function changeLanguage() {
     const selectedLanguage = languageSelector.value;
 
     // Language-specific content changes
-    // Need to add coffee descriptions, and page header
     if (selectedLanguage === 'fr') {
         document.getElementById('coffee1-description').innerHTML = "<h2>Expresso</h2><p>Un café fort et concentré préparé en forçant de l'eau chaude à travers des grains de café finement moulus.</p>";
         document.getElementById('coffee1-title').innerHTML = "Expresso";
